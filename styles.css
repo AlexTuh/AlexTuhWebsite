@@ -1,0 +1,65 @@
+@font-face {
+    font-family: RobotoMono;
+    src: url(font.ttf);
+}
+.static {
+    position:absolute;
+}
+.static {
+    opacity: 1;
+    transition: opacity .5s;
+}
+.static:hover{
+    opacity: 0;
+    transition: opacity .8s;
+    
+}
+.center{
+    text-align: center;
+}
+body {
+    font-family: RobotoMono;
+    margin: 0 auto;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+.imghol {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: 2px;
+    background-color:black;
+}
+.texthol {
+    margin: 0 auto;
+}
+.desc {
+    overflow-wrap: break-word;
+}
+.pr {
+    margin-left: 20px;
+    margin-top: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    max-height: 350px;
+}
+.name {
+    margin: 0;
+    margin-bottom: 2px;
+    color:white;
+}
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.center_text{
+    margin-right:10%;
+    margin-left:10%;
+    text-align:center;
+}
